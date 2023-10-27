@@ -27,9 +27,12 @@ function Dashboard() {
         <Link to="/hospital" style={buttonStyle}>
           View Hospital Statistics
         </Link>
-            <Link to="/https://github.com/professssor/hospital-management-typescript-redux-vite-node-express" style={{...buttonStyle, background:"green"} }>
-     GiTHUB
-        </Link>
+           <a
+          href="https://github.com/professssor/hospital-management-typescript-redux-vite-node-express"
+          style={{ ...buttonStyle, background: "green" }}
+        >
+          GitHub
+        </a>
       </div>
     </div>
   );

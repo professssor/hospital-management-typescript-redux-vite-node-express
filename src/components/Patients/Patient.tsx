@@ -24,7 +24,7 @@ function Patient({}: Props) {
     setPatientData([...patients]);
   }, [patients]);
 
-  const handleForm = (e: FormEvent, enteredValue: Patients) => {
+  const handleForm:(e:FormEvent, enteredValue:Patients)=>void = (e, enteredValue) => {
     e.preventDefault();
     if(enteredValue.name === "" ||
       enteredValue.age === null ||

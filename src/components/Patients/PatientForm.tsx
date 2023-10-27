@@ -2,6 +2,9 @@ import React, { useState } from "react";
 
 import { mainContainer, formContainer, genderContainer } from "./patientcss";
 
+type PatientFormProps = {
+  handleForm: (e: React.FormEvent, enteredValue: Patients) => void;
+};
 
 
 export type Patients = {
@@ -14,7 +17,7 @@ export type Patients = {
   ward: string;
 };
 
-function PatientForm({ handleForm }) {
+function PatientForm({ handleForm} :PatientFormProps) {
   const [patient, setPatient] = useState<Patients>({
     name: "",
     age: 0,
