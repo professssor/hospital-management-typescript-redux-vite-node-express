@@ -5,7 +5,7 @@ import { addPatient, deletePatient, fetchPatients } from "./patientSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import Dashboard from "../Dashboard";
-import PatientForm, { Patients } from "./patientForm";
+import PatientForm, { Patients } from "./PatientForm";
 
 
 console.log(PatientForm)
