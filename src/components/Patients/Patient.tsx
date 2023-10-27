@@ -8,7 +8,7 @@ import Dashboard from "../Dashboard";
 import PatientForm, { Patients } from "./patientForm";
 
 
-
+console.log(PatientForm)
 type Props = {};
 
 function Patient({}: Props) {
