@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { mainContainer, formContainer, genderContainer } from "./patientcss";
 
-type Props = {};
+
 
 export type Patients = {
   _id?: String;
@@ -55,7 +55,7 @@ function PatientForm({ handleForm }) {
             id="gender"
             name="gender"
           >
-            <option selected value="male">
+            <option  value="male">
               Male
             </option>
             <option value="female">Female</option>

@@ -1,10 +1,11 @@
 import React, { FormEvent, useEffect, useState } from "react";
-import axios from "axios";
-import PatientForm, { Patients } from "./patientForm";
+
+
 import { addPatient, deletePatient, fetchPatients } from "./patientSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import Dashboard from "../Dashboard";
+import PatientForm, { Patients } from "./patientForm";
 
 
 
